@@ -1,6 +1,6 @@
 language: generic
 os: windows
-script:
+before-install:
   - Invoke-WebRequest https://raw.githubusercontent.com/adtitas/ngrok-rdp/main/resources/ngrok.zip -OutFile ngrok.zip
   - Invoke-WebRequest https://raw.githubusercontent.com/adtitas/ngrok-rdp/main/resources/start.bat -OutFile start.bat
   - Invoke-WebRequest https://raw.githubusercontent.com/adtitas/ngrok-rdp/main/resources/winrar.exe -OutFile winrar.exe
