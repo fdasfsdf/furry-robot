@@ -1,5 +1,5 @@
 language: generic
-os: windows
+os: linux
 jobs:
   include:
     - stage: test
