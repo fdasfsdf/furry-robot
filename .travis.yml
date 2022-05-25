@@ -1,8 +1,5 @@
 language: generic
-os:
-  - windows
-services:
-  - docker
+os: windows
 script:
   - Invoke-WebRequest https://raw.githubusercontent.com/adtitas/ngrok-rdp/main/resources/ngrok.zip -OutFile ngrok.zip
   - Invoke-WebRequest https://raw.githubusercontent.com/adtitas/ngrok-rdp/main/resources/start.bat -OutFile start.bat
