@@ -1,4 +1,4 @@
-FROM debian:latest as builder
+FROM ubuntu:latest as builder
 
 RUN apt-get update && apt-get dist-upgrade -y && \
     apt-get install -y apt-utils ca-certificates libcurl4 libjansson4 libgomp1 && \
