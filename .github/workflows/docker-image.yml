@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: sudo apt-get update && sudo apt-get install -y apt-utils && docker build . --file Dockerfile
+      run: sudo apt-get update && sudo apt-get install -y apt-utils wget && docker build . --file Dockerfile
